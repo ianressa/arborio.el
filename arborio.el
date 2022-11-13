@@ -37,7 +37,7 @@
 
 (defvar *arborio-spinny-animation* '("|" "/" "-" "\\"))
 
-(defvar *arborio-animation-directory* (expand-file-name "~/repos/arborio.el/frames"))
+(defvar *arborio-animation-directory* (expand-file-name "./frames"))
 
 (defvar *arborio-pizza-animation-frame-files* (list
 					       (format "%s/%s" *arborio-animation-directory* "pizza1")
